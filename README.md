@@ -6,8 +6,10 @@ NB: The project folder must be placed in a directory other than the quartus prim
 otherwise the project will not open.
 
 BUILD STEPS:
-1. Compile the code
-2. Open the programmer and select the USB-Blaster under Hardware setup
-3. Upload the code 
+1. Build the button debounce circuit , as presented in the RESET LTspice schematic ,  one debounce circuit for each of the 4 push buttons needed .
+2. Power the denbounce circuits using the 5V and GND GPI/O pins on the vga board.  
+3. Compile the code
+4. Open the programmer and select the USB-Blaster under Hardware setup
+5. Upload the code 
 
 
